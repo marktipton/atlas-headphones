@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro';
+  color: #FFF;
+  font-style: normal;
 }
 
 .wrapper {
@@ -16,11 +18,17 @@
 
 .content {
   max-width: 1000px;
+  width: 100%;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .hero {
