@@ -137,10 +137,9 @@ button {
     text-align: center;
     justify-content: space-between; */
     /* height: 313px; */
+    height: 436px;
     width: 100%;
-    /* margin-bottom: -250px;
-    margin-left: 25px;
-    margin-right: 25px; */
+    margin-bottom: -180px;
   }
 
   .hero .subheader {
