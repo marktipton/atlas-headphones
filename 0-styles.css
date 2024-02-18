@@ -25,6 +25,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* margin-left: 66px;
+  margin-right: 66px;
+  margin-top: 29px; */
+  /* padding-left: 66px;
+  padding-right: 66px; */
 }
 
 .navbar {
@@ -44,8 +49,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* height: 313px;
+  width: 637px; */
   height: 800px;
   text-align: center;
+  justify-content: space-around;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 313px;
+  width: 637px;
 }
 
 .hero h1 {
