@@ -121,6 +121,17 @@ button {
 /* Smartphone */
 /*  */
 @media only screen and (max-width: 480px) {
+
+  #header-logo {
+    content: url('images/header-smartphone.png');
+    margin-left: -80px;
+
+  }
+
+  .navbar {
+    display: none;
+  }
+
   .wrapper {
     background-position: 35% 50%;
   }
@@ -131,15 +142,11 @@ button {
   }
 
   .hero-content {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between; */
-    /* height: 313px; */
     height: 436px;
     width: 100%;
     margin-bottom: -180px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .hero .subheader {
