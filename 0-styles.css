@@ -108,6 +108,14 @@ button {
   .wrapper {
     background-position: center center;
   }
+
+  .content {
+    width: 100%;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
 }
 /*  */
 /* Smartphone */
@@ -123,16 +131,16 @@ button {
   }
 
   .hero-content {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    height: 313px;
+    justify-content: space-between; */
+    /* height: 313px; */
     width: 100%;
-    margin-bottom: -250px;
+    /* margin-bottom: -250px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 25px; */
   }
 
   .hero .subheader {
