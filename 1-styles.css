@@ -125,6 +125,10 @@ button {
 
 .wwd-main-p {
   max-width: 637px;
+  width: 637px;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 .icon-block {
@@ -133,6 +137,7 @@ button {
   margin-top: 50px;
   flex-wrap: wrap;
   row-gap: 97px;
+  column-gap: 25px;
 }
 
 .frequency-icon {
@@ -213,6 +218,14 @@ button {
 
   .hero .subheader {
     max-width: 280px;
+  }
+  /*  */
+  /* What we do section */
+  /*  */
+
+  .wwd-main-p {
+    width: 325px;
+    height: 208px;
   }
 }
 
