@@ -108,7 +108,7 @@ button {
   font-size: 14px;
 }
 
-/* what we do Section */
+/* what we do Section ========================*/
 
 #wwd-content *{
   color: #071629;
@@ -172,7 +172,7 @@ button {
 }
 
 /*  */
-/* Our Results */
+/* Our Results ====================*/
 /*  */
 .polygon {
   width: 190px;
@@ -226,7 +226,7 @@ button {
   /* margin-bottom: 300px; */
 }
 /*  */
-/* Tablet */
+/* Tablet *******************************************/
 /*  */
 @media only screen and (max-width: 800px) {
   .hero {
@@ -248,6 +248,11 @@ button {
 
   .icon-block {
     width: 75%;
+  }
+
+  .our-results {
+    height: 876px;
+    background-size: cover;
   }
 }
 /*  */
