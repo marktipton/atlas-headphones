@@ -137,6 +137,7 @@ button {
   margin-top: 50px;
   flex-wrap: wrap;
   row-gap: 97px;
+  /* max-width: ; */
   column-gap: 25px;
 }
 
@@ -178,10 +179,19 @@ button {
 
   .content {
     width: 100%;
+    max-width: 1000px;
   }
 
   .hero-content {
     width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .icon-block {
+    width: 75%;
   }
 }
 /*  */
