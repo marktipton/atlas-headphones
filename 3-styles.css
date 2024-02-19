@@ -250,11 +250,15 @@ button {
 .contact-us-content h3 {
   color: #071629;
   text-align: center;
-/* font-family: SourceSansPro; */
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Tablet *******************************************/
