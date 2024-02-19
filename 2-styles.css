@@ -190,7 +190,11 @@ button {
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  margin-top: 141px;
+  margin-top: 0px;
+}
+
+.or-content h2 {
+
 }
 
 .or-content h3 {
@@ -210,10 +214,10 @@ button {
   line-height: 26px;
 }
 
-.polygon {
-  /* margin-top: 200px; */
+/* .polygon {
+  margin-top: 200px;
   position: absolute;
-}
+} */
 
 .polygon-text {
   position: absolute;
