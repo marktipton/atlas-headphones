@@ -304,9 +304,17 @@ footer p {
   opacity: 0.3517;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100%;
+  text-align: center;
+}
+
 .footer-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* Tablet *******************************************/
