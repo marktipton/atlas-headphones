@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro';
+  color: #FFF;
+  font-style: normal;
+}
+
+.wrapper {
+  /* background: url('images/background.png');
+  background-size: cover; */
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 3006px; */
+  /* transition: background-position 0.5s ease; */
+}
+
+.content {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 29px;
+  z-index: 1;
+  /* margin-left: 66px;
+  margin-right: 66px;
+  margin-top: 29px; */
+  /* padding-left: 66px;
+  padding-right: 66px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 41px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.hero {
+  background: url('images/background.png');
+  background-size: cover;
+  background-position: center center;
+  margin-top: -65px;
+  z-index: -1;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  transition: background-position 0.5s ease;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 313px;
+  width: 637px;
+  /* margin-bottom: -250px; */
+  margin-top: 280px;
+}
+
+.hero h1 {
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero .subheader {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero .hero-text {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+button {
+  border-radius: 22px;
+  background: #FF6565;
+  width: 162px;
+  height: 44px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+  font-size: 14px;
+}
+
+/* what we do Section ========================*/
+
+#wwd-content *{
+  color: #071629;
+}
+
+#wwd-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.wwd-main-p {
+  max-width: 637px;
+  width: 637px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+.icon-block {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  row-gap: 97px;
+  /* max-width: ; */
+  column-gap: 25px;
+}
+
+.frequency-icon {
+  width: 94.2px;
+  height: 65.357px;
+}
+
+.video-icon {
+  width: 67.588px;
+  height: 76.8px;
+}
+
+.music-icon {
+  width: 51.66px;
+  height: 57.266px;
+}
+
+.ear-icon {
+  width: 61.431px;
+  height: 61.44px;
+}
+.icon {
+  width: 207px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/*  */
+/* Our Results ====================*/
+/*  */
+.polygon {
+  width: 190px;
+  height: 190px;
+}
+
+.our-results {
+  background: url('images/background-middle.png');
+  height: 650px;
+}
+
+.or-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 40px;
+
+}
+
+.or-content h2 {
+  margin-top: 141px;
+}
+
+.or-content h3 {
+  font-size: 46px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.or-main-p {
+  max-width: 637px;
+}
+
+.or-content .icon p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* .polygon {
+  margin-top: 200px;
+  position: absolute;
+} */
+
+.polygon-text {
+  position: absolute;
+  margin-top: 80px;
+  /* margin-bottom: 300px; */
+}
+
+/*  */
+/* Contact Us ++++++++++++++++++==++++*/
+/*  */
+.contact-us {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us-content {
+  width: 335px;
+  height: 373px;
+  margin-top: 110px;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-content label {
+  color: #071629;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact-us-content h3 {
+  color: #071629;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 56px;
+}
+
+.contact-us-content button {
+  box-shadow: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  width: 335px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/*  */
+/* Footer================== */
+
+footer {
+  background: url('images/footer_background.png');
+  /* background-size: cover;
+  width: 100%; */
+  height: 249px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
+}
+/* Tablet *******************************************/
+/*  */
+@media only screen and (max-width: 800px) {
+  .hero {
+    background-position: center center;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  /* .hero-content {
+    width: 100%;
+  } */
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .icon-block {
+    width: 75%;
+  }
+
+  .our-results {
+    height: 876px;
+    background-size: cover;
+  }
+}
+/*  */
+/* Smartphone */
+/*  */
+@media only screen and (max-width: 480px) {
+
+  #header-logo {
+    content: url('images/header-smartphone.png');
+    margin-right: 115px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hero {
+    background-position: 35% 50%;
+  }
+
+  .content {
+    max-width: 430px;
+    width: 100%;
+  }
+
+  .hero-content {
+    height: 436px;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .hero .subheader {
+    max-width: 280px;
+  }
+  /*  */
+  /* What we do section smartphone*/
+  /*  */
+
+  .wwd-main-p {
+    width: 325px;
+    height: 208px;
+  }
+
+  .our-results {
+    height: 1491px;
+  }
+}
+
+
